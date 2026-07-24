@@ -67,12 +67,25 @@ jobs:
           - cuda_version: '12.8.1'
             cuda_version_short: '12.8'
             cuda_tag: '12.8.1-cudnn-devel-ubuntu22.04'
-            architectures: '60-virtual;61-virtual'
+            architectures: '60;61'
             #architectures: '75-virtual;80-virtual;86-virtual;89-virtual;90-virtual;100-virtual;120-virtual'
           - cuda_version: '12.6.3'
             cuda_version_short: '12.6'
             cuda_tag: '12.6.3-cudnn-devel-ubuntu22.04'
-            architectures: '60-virtual;61-virtual'
+            architectures: '60;61'
+          - cuda_version: '12.4.1'
+            cuda_version_short: '12.4'
+            cuda_tag: '12.4.1-cudnn-devel-ubuntu22.04'
+            architectures: '60;61'
+          - cuda_version: '11.8.0'
+            cuda_version_short: '11.8'
+            cuda_tag: '11.8.0-cudnn-devel-ubuntu22.04'
+            architectures: '60;61'
+          - cuda_version: '12.9.2'
+            cuda_version_short: '12.9'
+            cuda_tag: '12.9.2-cudnn-devel-ubuntu22.04'
+            architectures: '60;61'
+          
 
     
     steps:
