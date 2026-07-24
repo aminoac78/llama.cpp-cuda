@@ -59,7 +59,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        cuda_version: ['12.8.1', '12.6.3','11.8.0','12.9.2']
+        cuda_version: ['12.8.1', '12.6.3','12.4.1','11.8.0','12.9.2']
         arch:
           - { suffix: amd64, runs_on: ubuntu-latest }
           # - { suffix: arm64, runs_on: ubuntu-24.04-arm }
